@@ -1,0 +1,74 @@
+.footer{
+    overflow: hidden;
+    position: sticky;
+    top: 100%;
+    background-color: #000;
+    padding: 20px 10px;
+}
+h1{
+    font-weight: bold;
+    color:#fff;
+    font-size: 20px;
+}
+p{
+    color: #fff;
+    font-size: 12px;    
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 10px;
+    font-size: 17px;
+}
+a:hover{
+    color: var(--primary-color);
+}
+i{
+    padding: 0px 10px;
+}
+foot-content{
+    width: 100%;
+}
+.name{
+    width: 45%;
+    text-align: left;
+    vertical-align: top;
+    float: left;
+}
+.nav{
+    width: 30%;
+    text-align: right;
+    vertical-align: top;
+    float: left;
+}
+.social{
+    width: 25%;
+    text-align: right;
+    vertical-align: top;
+    float: left;
+}
+
+@media screen and (max-width: 720px) {
+    .name{ 
+        border: none;
+        width: 90%; 
+        height: 25px;
+        margin: 5%; 
+    }
+}
+@media screen and (max-width: 720px) {
+    .nav { 
+        border: none;
+        width: 90%; 
+        height: 18px;
+        margin: 5%; 
+    }
+}
+@media screen and (max-width: 720px) {
+    .social { 
+        border: none;
+        width: 90%; 
+        height: 12px;
+        margin: 5%; 
+    }
+}
