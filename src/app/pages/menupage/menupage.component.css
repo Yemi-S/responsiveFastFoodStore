@@ -9,3 +9,8 @@ img{
     height: 500px;
     object-fit: cover;
 }
+@media screen  and (max-width:600px){
+    form{
+        width: 100%;
+    }
+}
